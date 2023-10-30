@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizely</string>
+    <string name="login_intro_subhead_text">Lorem ipsum dolor sit amet consectetur \n adipisicing elit. Maxime mollitia</string>
+    <string name="login_intro_head_text">Welcome to Quiz App</string>
+    <string name="login_intro_button_text">Get Start</string>
+    <string name="login_now_text">Login Now</string>
+    <string name="login_permission_text">Please login if you want to use Quiz app</string>
+    <string name="login_button">Login</string>
+    <string name="signup_text">Sign Up Now</string>
+    <string name="signup_request_text">Enter your email address and \n password to create your account</string>
+
+</resources>

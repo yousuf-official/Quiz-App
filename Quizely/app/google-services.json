@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1014012835564",
+    "project_id": "quize-297d6",
+    "storage_bucket": "quize-297d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014012835564:android:dbe19d1cd3977856a657c9",
+        "android_client_info": {
+          "package_name": "com.ranktrends.quize"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVY54G3YO7DBnNvhVmdTtruQQ6LBc2gaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014012835564:android:c6f9f7e516066120a657c9",
+        "android_client_info": {
+          "package_name": "com.ranktrends.quizee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVY54G3YO7DBnNvhVmdTtruQQ6LBc2gaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014012835564:android:6c12c4cf72e56c4fa657c9",
+        "android_client_info": {
+          "package_name": "com.ranktrends.quizely"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVY54G3YO7DBnNvhVmdTtruQQ6LBc2gaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

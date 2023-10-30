@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   tools:context=".MainActivity">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/gradient_back"
+       >
+       <TextView
+           android:id="@+id/titleID"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:text="Quizely"
+           android:textColor="#7BAEA9"
+           android:textSize="72dp"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+           android:id="@+id/txtQuestion"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="50dp"
+           android:text="Ready for the Challenge?"
+           android:textColor="#DAC0DD"
+           android:textSize="30dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/titleID" />
+
+       <RadioGroup
+           android:id="@+id/radioGroup"
+           android:layout_width="wrap_content"
+           android:layout_height="192dp"
+           android:layout_margin="20dp"
+           android:layout_marginStart="16dp"
+           android:layout_marginTop="16dp"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/txtQuestion">
+
+           <RadioButton
+               android:id="@+id/radio1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:textSize="20dp" />
+
+           <RadioButton
+               android:id="@+id/radio2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:textSize="20dp" />
+
+           <RadioButton
+               android:id="@+id/radio3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:textSize="20dp" />
+
+           <RadioButton
+               android:id="@+id/radio4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:textSize="20dp" />
+
+       </RadioGroup>
+
+       <Button
+           android:id="@+id/btnNext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Next"
+           android:layout_marginTop="80dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+       <TextView
+           android:id="@+id/txtResult"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:layout_marginBottom="16dp"
+           android:textSize="20dp"
+           android:text="correct"
+           android:textColor="#066326"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.6"
+           app:layout_constraintStart_toStartOf="parent" />
+
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
